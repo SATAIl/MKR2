@@ -1,3 +1,4 @@
+package MKR2;
 public class ArcherFactor implements CharacterFactory {
     @Override
     public Character createCharacter(String name) {

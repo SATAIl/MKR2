@@ -1,3 +1,4 @@
+package MKR2;
 public class Main {
     public static void main(String[] args) {
         Arena arena = new Arena();
@@ -9,10 +10,10 @@ public class Main {
         CharacterFactory archerFactory = new ArcherFactor();
         CharacterFactory berserkerFactory = new BerserkerFactor();
 
-        Character warrior = warriorFactory.createCharacter("Беовульф");
+        Character warrior = warriorFactory.createCharacter("Борис");
         Character mage = mageFactory.createCharacter("Мерлін");
         Character archer = archerFactory.createCharacter("Робін");
-        Character berserker = berserkerFactory.createCharacter("Берус");
+        Character berserker = berserkerFactory.createCharacter("Беовульф");
 
         arena.addCharacter(warrior);
         arena.addCharacter(mage);

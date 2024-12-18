@@ -1,3 +1,4 @@
+package MKR2;
 public class BerserkerFactor implements CharacterFactory {
     @Override
     public Character createCharacter(String name) {

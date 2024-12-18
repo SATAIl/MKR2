@@ -1,3 +1,4 @@
+package MKR2;
 public class PlayerObserve implements Observer {
     private String playerName;
 
